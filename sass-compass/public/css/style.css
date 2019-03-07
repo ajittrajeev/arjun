@@ -69,7 +69,14 @@ body {
 
 @import "layout/footer";
 @import "layout/grid";
-@import "layout/header";
+*/
+/* line 1, ../../sass/layout/_header.scss */
+.header {
+  height: 85vh;
+  background-color: red;
+}
+
+/*
 @import "layout/navigation";
 
 @import "pages/home";
