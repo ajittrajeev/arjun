@@ -4,55 +4,35 @@
 /*
 @import "base/animations";
 */
-/* line 1, ../../sass/aa_base/_base.scss */
 *,
 *::after,
 *::before {
   margin: 0;
   padding: 0;
-  box-sizing: inherit;
-}
+  box-sizing: inherit; }
 
-/* line 9, ../../sass/aa_base/_base.scss */
 html {
-  font-size: 62.5%;
-}
-@media only screen and (max-width: 75em) {
-  /* line 9, ../../sass/aa_base/_base.scss */
-  html {
-    font-size: 56.25%;
-  }
-}
-@media only screen and (max-width: 56.25em) {
-  /* line 9, ../../sass/aa_base/_base.scss */
-  html {
-    font-size: 50%;
-  }
-}
-@media only screen and (min-width: 112.5em) {
-  /* line 9, ../../sass/aa_base/_base.scss */
-  html {
-    font-size: 75%;
-  }
-}
+  font-size: 62.5%; }
+  @media only screen and (max-width: 75em) {
+    html {
+      font-size: 56.25%; } }
+  @media only screen and (max-width: 56.25em) {
+    html {
+      font-size: 50%; } }
+  @media only screen and (min-width: 112.5em) {
+    html {
+      font-size: 75%; } }
 
-/* line 26, ../../sass/aa_base/_base.scss */
 body {
   box-sizing: border-box;
-  padding: 3rem;
-}
-@media only screen and (max-width: 56.25em) {
-  /* line 26, ../../sass/aa_base/_base.scss */
-  body {
-    padding: 0;
-  }
-}
+  padding: 3rem; }
+  @media only screen and (max-width: 56.25em) {
+    body {
+      padding: 0; } }
 
-/* line 35, ../../sass/aa_base/_base.scss */
 ::selection {
   background-color: #ff66cc;
-  color: #fff;
-}
+  color: #fff; }
 
 /*
 @import "base/typography";
@@ -70,11 +50,22 @@ body {
 @import "layout/footer";
 @import "layout/grid";
 */
-/* line 1, ../../sass/layout/_header.scss */
 .header {
   height: 85vh;
-  background-color: red;
-}
+  background-color: yellow;
+  /*
+  background-image: linear-gradient(
+                  to right bottom,
+                  rgba($color-primary-light, 0.7),
+                  rgba($color-primary-dark, 0.9)),
+  url(../img/aa_header/2.jpg);
+
+*/
+  /*
+  background-size: cover;
+  background-position: top;
+  position: relative;
+*/ }
 
 /*
 @import "layout/navigation";

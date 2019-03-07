@@ -1,9 +1,25 @@
 .header {
   height: 85vh;
 
+background-color: yellow;
 
-  background-color: red;
 
+
+/*
+  background-image: linear-gradient(
+                  to right bottom,
+                  rgba($color-primary-light, 0.7),
+                  rgba($color-primary-dark, 0.9)),
+  url(../img/aa_header/2.jpg);
+
+*/
+
+
+  /*
+  background-size: cover;
+  background-position: top;
+  position: relative;
+*/
 
 
 }
